@@ -1,5 +1,6 @@
 body{
-    font-family: ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -61,7 +62,6 @@ ul.icon-menu {
 }
 div.scrollDiv div {
     padding: 10px 10px;
-
 }
 #section1 {color: #484848; background-color: #d5d7d9;margin-top: 80px}
 #section2 {color: #fff; background-color: #009688;}
@@ -69,7 +69,18 @@ div.scrollDiv div {
 #section4 {color: #fff; background-color: #009688;}
 #section5 {color: #484848; background-color: #d5d7d9;}
 #section6 {color: #fff; background-color: #009688;}
-#section7 {color: #484848; background-color: #d5d7d9;}
+#section7 {color: #484848; background-color: #ffffff;}
+
+.oil-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 4px;
+    margin-top: 8px;
+
+}
+.oil-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .title{
     font-size: 30px;
@@ -106,7 +117,69 @@ ul li {
     }
 
 }
-
+@media (min-width: 1200px) {
+    .oil-container {
+        width: 1120px;
+    }
+}
+.oil-container{
+    padding: 35px 30px;
+}
+.oil-address{
+    font-weight: 400;
+    font-size: 16px;
+    color: #484848;
+    line-height: 1.6em;
+    letter-spacing: 0.6px;
+    word-spacing: 4px;
+}
+.oil-address-fw{
+    font-size:20px;
+    font-weight: 700;
+}
+.oil-location{
+    font-size: 20px;
+    padding: 0 10px 0 0;
+}
+.oil-phone{
+    font-size:20px;
+    font-weight: 600;
+}
+.btn-custom{
+    border: 1px solid #ffffff;
+    padding: 8px 50px;
+    background: #484848;
+    color:#ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.oil-float-l{
+    float: left;
+}
+.oil-float-r{
+    float: right;
+}
+.oil-box{
+    border: 2px solid #484848;
+    background: #ffffff;
+    color: #484848;
+    padding: 8px;
+    margin-top: 2px;
+}
+/*owl carousel*/
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.client-logo{
+    width: 170px;
+    height: auto;
+    margin: 5px 0;
+}
 /*//////////////////////////////////////////////////////////////////////////
    CSS Helper Classes
 /////////////////////////////////////////////////////////////////////////*/
@@ -168,6 +241,9 @@ ul li {
 .m-30{
     margin: 30px!important;
 }
+.m-b-0{
+    margin-bottom: 0;
+}
 /*////Ends here///*/
 /*///Padding//*/
 .p-0{
@@ -185,6 +261,9 @@ ul li {
 .p-20{
     padding: 20px!important;
 }
+.p-35{
+    padding: 35px !important;
+}
 .p-t-40{
     padding-top: 40px!important;
 }
@@ -199,6 +278,9 @@ ul li {
 }
 .p-l-35{
     padding-left: 35px !important;
+}
+.p-l-0{
+    padding-left: 0;
 }
 /*///ends here////*/
 /*////Fonts////*/
